@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title> Portfolio Hajar </title>
 </head>
 
 <body>
     <div id="wrapper-portfolio">
-        <h1> Hajar Ayaddouz <strong> Développeuse Web et Web mobile </strong> </h1>
 
+        <div class="title">
+            <h1> Hajar Ayaddouz <strong> Développeuse Web et Web mobile </strong> </h1>
+        </div>
+        
         <div class="presentation">
             <h2> Présentation </h2>
             <img src="img/photo-presentation.jpg" alt="Photo de présentation">
@@ -22,7 +26,6 @@
                 Ce parcours m’a permis d’acquérir de solides compétences aussi bien en back-end (PHP, Symfony, SQL) qu’en front-end (HTML, CSS, JavaScript). <br>
                 Depuis l’obtention de mon diplôme en février 2025, je suis activement à la recherche d’une alternance afin de poursuivre mes études en bac +3 et continuer à progresser dans le domaine du développement web.
             </p>
-            <a href=""> Télécharger mon CV </a>
         </div>
 
         <h2>Mes compétences </h2>
@@ -31,29 +34,78 @@
             <div class="competence">
                 <h3> Back-end </h3>
                 <ul>
-                    <li> PHP </li>
-                    <li> SQL </li>
-                    <li> Symfony </li>
+                    <li> <i class="fa-brands fa-php"></i> PHP </li>
+                    <li> <i class="fa-solid fa-database"></i> SQL </li>
+                    <li> <i class="fa-brands fa-symfony"></i> Symfony </li>
                 </ul>
             </div>
 
             <div class="competence">
                 <h3> Front-end & UX/UI </h3>
                 <ul>
-                    <li> HTML5 </li>
-                    <li> CSS </li>
-                    <li> JavaScript </li>
-                    <li> Figma </li>
+                    <li> <i class="fa-brands fa-html5"></i> HTML5 </li>
+                    <li> <i class="fa-brands fa-css3-alt"></i> CSS </li>
+                    <li> <i class="fa-brands fa-js"></i> JavaScript </li>
+                    <li> <i class="fa-brands fa-figma"></i> Figma </li>
                 </ul>
             </div>
         </div>
 
+        <a href=""> Télécharger mon CV </a>
+
         <div class="projets">
             <h2> Mes projets </h2>
+            <div class="projets">
+
+                <div class="projet">
+                    <h3> Aiyouan </h3>
+                    <small> Site vitrine pour une illustratrice jeunesse </small>
+                    <p> - HTML/CSS/Javascript 
+                        - Premier déploiement d'un site Web
+                        - Utilisation de figma pour maquetter l'application
+                    </p>
+                </div>
+
+                <div class="projet">
+                    <h3> Pawtners </h3>
+                    <small> Projet de fin d'examen, site de rencontre pour chats</small>
+                    <p>
+                        - Utilisation du framework Symfony
+                        - HTML/CSS/JavaScript
+                        - Gestion de projet
+                        - PHP/SQL/mySQL
+                    </p>
+                </div>
+
+                <div class="projet">
+                    <h3> Landing Page </h3>
+                    <small> Projet de formation </small>
+                    <p>
+                        -Traduction de maquettes
+                        -HTML/CSS/JavaScript
+                    </p>
+                </div>
+
+                <div class="projet">
+                    <h3> IDFilms </h3>
+                    <small> Projet de formation </small>
+                    <p>
+                        -Application qui requiert la gestion de base de données afin d'ajouter/supprimer des films, acteurs, genre et casting
+                        -SQL, MySQL, PHP natif
+                        -HTML, CSS, Javascript
+                    </p>
+                </div>
+
+            </div>
         </div>
         
         <div class="contact">
             <h2> Me contacter </h2>
+            <ul>
+                <li> <i class="fa-solid fa-envelope"></i> </li>
+                <li> <i class="fa-brands fa-linkedin"></i> </li>
+                <li> <i class="fa-brands fa-github"></i> </li>
+            </ul>
         </div>
 
     </div>
