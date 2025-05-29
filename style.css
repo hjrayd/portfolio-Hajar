@@ -19,14 +19,17 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     margin-top: 30px;
 }
 
+.title {
+    margin-bottom: 30px;
+}
 .presentation {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .presentation img {
@@ -47,12 +50,60 @@ body {
 
 }
 
+.competences-title {
+    margin-bottom: 30px;
+}
+
+.competences {
+    margin-bottom: 30px;
+}
+
+.projets-title {
+    margin-top: 30px;
+}
+
 .projets {
     display: flex;
     align-items: center;
     flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.projet h3, small {
+    display: flex;
+    justify-content: center;
 }
 
 .projet img {
-    width: 300px;
+    width: 400px;
+    height: 400px;
+
+}
+
+.projet p {
+    display: none;
+}
+
+.contact {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+.contact ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+.contact i {
+    font-size: 20px;
 }
