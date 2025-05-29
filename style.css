@@ -46,3 +46,13 @@ body {
     flex-direction: column;
 
 }
+
+.projets {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.projet img {
+    width: 300px;
+}
