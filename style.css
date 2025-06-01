@@ -95,13 +95,11 @@ max-width: 60%;
     width: 250px;
 }
 
-  /* 
+/* 
 =================================================================
 =========================COMPETENCES==================================
 =================================================================
  */
-  
-
 
 .competences {
     display: flex;
@@ -131,37 +129,59 @@ max-width: 60%;
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 5px;
 }
+
 
 .competence {
     display: flex;
-    width: 300px;
-    height: 300px;
-    border: 1px solid #8e2de2;
+    width: 350px;
+    height: 350px;
     padding: 15px;
+    border-radius: 20px;
+    background-color: rgba(177, 138, 227, 0.2);
 }
+
+
 
 .competence h3 {
     display: flex;
+    margin-top: 20px;
     justify-content: center;
     text-align: center;
     margin-bottom: 15px;
 }
 
 .competences {
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 
-  /* 
+.btn-download {
+    border: 1px solid #a259ff;
+    padding: 15px 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+
+.btn-download:hover {
+    background-color: #8e2de2;
+}
+
+.btn-download a {
+    text-decoration: none;
+}
+
+/* 
 =================================================================
 =========================PROJETS==================================
 =================================================================
  */
-  
+
 
 .projets-title {
-    margin-top: 30px;
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
 
 .projets {
@@ -173,9 +193,28 @@ max-width: 60%;
     margin-top: 30px;
 }
 
+.projet-row {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 .projet h3, small {
     display: flex;
     justify-content: center;
+}
+
+.projet h3 {
+    padding-bottom: 20px;
+}
+
+.projet h3 a {
+    text-decoration: none;
+    color: #8e2de2;
+}
+
+.projet h3 a:hover {
+    text-decoration: underline;
 }
 
 .projet img {
@@ -187,12 +226,12 @@ max-width: 60%;
     display: none;
 }
 
-  /* 
+/* 
 =================================================================
 =========================CONTACT==================================
 =================================================================
  */
-  
+
 
 .contact {
     display: flex;
