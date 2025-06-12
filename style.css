@@ -113,7 +113,7 @@ max-width: 60%;
 }
 
 .competences-title {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     margin-top: 100px;
     font-weight: 300;
 }
@@ -127,6 +127,7 @@ max-width: 60%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    gap: 15px;
 }
 
 
@@ -139,7 +140,15 @@ max-width: 60%;
     background-color: rgba(177, 138, 227, 0.2);
 }
 
+.competence small {
+    color: #555;;
+}
 
+.competence li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .competence h3 {
     display: flex;
@@ -147,6 +156,8 @@ max-width: 60%;
     justify-content: center;
     text-align: center;
     margin-bottom: 15px;
+    font-weight: 400;
+    color: #a259ff;
 }
 
 .competences {
@@ -179,6 +190,7 @@ max-width: 60%;
 .projets-title {
     margin-top: 100px;
     margin-bottom: 20px;
+    font-weight: 300;
 }
 
 .projets {
@@ -189,6 +201,11 @@ max-width: 60%;
     justify-content: space-around;
     margin-top: 30px;
 }
+
+.projets-title strong {
+    color: #8e2de2;
+}
+
 
 .projet-row {
     display: flex;
@@ -273,6 +290,15 @@ max-width: 60%;
     display: flex;
     margin-top: 30px;
     flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.contact h2 strong {
+    color: #8e2de2;
+}
+.contact h2 {
+    margin-bottom: 30px;
+    font-weight: 300;
 }
 
 .contact ul {
@@ -285,10 +311,18 @@ max-width: 60%;
     margin-top: 15px;
     margin-bottom: 15px;
     list-style: none;
+    
 }
 
 .contact i {
     font-size: 20px;
+    font-size: 25px;
+    color: #8e2de2;
+    transition: transform 0.3s ease;
+}
+
+.contact i:hover {
+transform: translateY(-5px);
 }
 
 @media screen and (max-width: 768px) { 
