@@ -19,12 +19,10 @@ body {
     min-height: 100%;
 }
 
-
-
 #wrapper-portfolio {
     width: 100%;
     min-height: 100vh;
-    background-color: #0d0d0d;
+    background: radial-gradient(circle, #3a3a3a 0%, #0d0d0d 70%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,8 +65,11 @@ flex-direction: row-reverse;
 width: 80%;
 justify-content: space-around;
 margin-top: 30px;
+}
 
-
+.presentation strong {
+    color: #8e2de2;
+    font-weight: 500;
 }
 
 .presentation-text {
@@ -122,6 +123,18 @@ max-width: 60%;
     color: #8e2de2;
 }
 
+.competence i {
+    color: #a259ff;
+
+}
+
+.competence-name {
+display: flex;
+width: 200px;
+align-items: center;
+gap: 8px;
+}
+
 .competences ul {
     list-style: none;
     display: flex;
@@ -147,7 +160,7 @@ max-width: 60%;
 .competence li {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start; 
 }
 
 .competence h3 {
